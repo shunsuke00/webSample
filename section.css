@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+.align-center {
+    text-align: center;
+}
+
+main {
+    margin: 0 1rem 0 1rem;
+}
+
+main .sec-title-box {
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+
+/* フォント
+------------------------------------- */
+.english-font {
+    font-family: 'Times New Roman', Times, serif;
+}
+.japanese-title-font {
+    font-family: sans-serif;
+}
+main p,h5 {
+    font-family: serif;
+}
+
+
+/* 章タイトル
+------------------------------------- */
+.sec-number {
+    font-size: 2rem;
+    margin-bottom: .25rem;
+}
+.sec-title {
+    font-size: 1.5rem;
+}
+
+
+/* 目次
+------------------------------------- */
+.index {
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    padding: 1.5rem 0 2rem;
+    position: relative;
+}
+.index-title {
+    margin-bottom: .5rem;
+    padding: 0 1rem;
+    font-size: 1.5rem;
+    position: absolute;
+    top: -0.25rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.index nav {
+    text-align: left;
+}
+.index .subsec-item {
+    margin-top: .75rem;
+    padding-left: 2rem;
+}
+.index .subsubsec a {
+    padding-left: 5rem;
+}
+.index li {
+    list-style: none;
+    line-height: 1.8;
+}
+.index a {
+    text-decoration: none;
+    display: block;
+    font-size: 1rem;
+}
+
+
+/* 節以降の本文
+-------------------------------------- */
+.subsec-intro .subsec-num {
+    margin-top: 6rem;
+    font-size: 1.5rem;
+}
+.subsec-intro .subsec-title {
+    margin-top: .25rem;
+    font-size: 1.25rem;
+}
+.subsec-intro p {
+    margin-top: 1rem;
+}
+
+section h4 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.25rem;
+    font-size: 1.125rem;
+}
+
+section h5 {
+    margin-top: 1.5rem;
+    margin-bottom: .25rem;
+    text-align: left;
+    padding-left: 1.5rem;
+    font-size: 1rem;
+}
+
+.title-p,section p {
+    line-height: 1.7;
+    text-align: justify;
+    font-size: 0.95rem;
+}
+
+.keyword {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+

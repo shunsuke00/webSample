@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+/* Casual */
+
+:root {
+    --back-base: #ffffef;
+    --back-asort1: hsl(120deg 40% 70%);
+    --back-asort2: hsl(210deg 85% 60%);
+
+    --text-base: #111;
+    --text-keyword: hsl(10deg 90% 50%);
+}
+
+
+/* background
+---------------------------------------------- */
+body {
+    background-color: var(--back-base);
+}
+
+.index-title {
+    background-color: var(--back-base);
+}
+.index .subsec-item:hover,
+.index .subsubsec li:hover {
+    background-color: var(--back-asort1);
+}
+
+
+/* color
+---------------------------------------------- */
+main h2 {
+    color: var(--back-asort2);
+}
+
+main h3,h4,h5,p {
+    color: var(--text-base);
+}
+
+.index a {
+    color: var(--text-base);
+}
+
+.keyword {
+    color: var(--text-keyword);
+}
+
+
+/* border
+---------------------------------------------- */
+section h4 {
+    border-bottom: 2.5px solid var(--back-asort2);
+}
+
+.index {
+    border: 4px double var(--back-asort2);
+    border-radius: 40px;
+}

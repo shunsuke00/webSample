@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8" />
+    <title>menuButton</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+
+    <link rel="stylesheet" href="menuButton.css">
+    <link rel="stylesheet" href="section.css">
+    <link rel="stylesheet" href="color.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <div id="home-button">
+        <a href="#"><img class="logo-home" src="homeIcon1.svg" alt="Home" /></a>
+    </div>
+    <div id="menu-button">
+        <div id="top-bar"></div>
+        <div id="middle-bar"></div>
+        <div id="bottom-bar"></div>
+    </div>
+    <nav id="nav-container">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+    <script src="menuButton.js"></script>
+
+    <!-- article -->
+    <main class="align-center">
+        <div class="sec-title-box">
+            <h2 class="sec-number english-font">Section 3</h2>
+            <h2 class="sec-title japanese-title-font">色彩心理 ~色のイメージ~</h2>
+        </div>
+        <p class="title-p">
+            本章では単色あるいは配色が与えるイメージを見ていく。
+            はじめに単色による心理効果を色相・明度・彩度に関して述べ、
+            次に配色による視覚効果を述べる。
+        </p>
+
+        <div class="index">
+            <h3 class="index-title english-font">Table of Contents</h3>
+            <nav>
+                <ul class="subsec">
+                    <li>
+                        <a href="#subsec1" class="subsec-item">3-1: 色の心理効果（単色が持つイメージ）</a>
+                        <ul class="subsubsec">
+                            <li><a href="#subsec1-1">色相に関連する心理効果</a></li>
+                            <li><a href="#subsec1-2">明度に関連する心理効果</a></li>
+                            <li><a href="#subsec1-3">彩度に関連する心理効果</a></li>
+                            <li><a href="#subsec1-4">連想と象徴</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#subsec2" class="subsec-item">3-2: 色の視覚効果（配色が持つイメージ）</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <section>
+            <div class="subsec-intro">
+                <h3 class="subsec-num english-font"><a id="subsec1">Section 3-1</a></h3>
+                <h3 class="subsec-title japanese-title-font">色の心理効果（単色が持つイメージ）</h3>
+                <p>単色の心理効果には、色の三属性が関わっている。</p>
+            </div>
+
+            <h4 class="japanese-title-font"><a id="subsec1-1">色相に関連する心理効果</a></h4>
+            <h5 class="japanese-title-font">寒暖感</h5>
+            <p>
+                色を見た時に感じる温度感のことで、<em class="keyword">暖色</em>（1:rP~8:Y）と<em class="keyword">寒色</em>（13:bG~19:pB）と温度を感じない<em class="keyword">中性色</em>（9:gY~12:G、20:V~24:RP）の3つに分かれる。また、無彩色は冷たく感じられる。
+            </p>
+            <h5 class="japanese-title-font">進出・後退感</h5>
+            <p>
+                色を見た時に本来よりもズレて見える距離感のことで、近くに見える<em class="keyword">進出色</em>（赤・橙・黄）と遠くに見える<em class="keyword">後退色</em>（青・青紫）がある。緑や紫はどちらでもない。<br>
+                →寒暖感と相関があり、「暖-進出」「寒-後退」でまとめて覚えるべき。
+            </p>
+
+            <h4 class="japanese-title-font"><a id="subsec1-2">明度に関連する心理効果</a></h4>
+            <h5 class="japanese-title-font">膨張・収縮感</h5>
+            <p>
+                色を見た時に見かけの大きさがズレて見える感じのことで、
+                明度が高いと大きく見え（<em class="keyword">膨張色</em>）、
+                明度が低いと小さく見える（<em class="keyword">収縮色</em>）。
+            </p>
+            <h5 class="japanese-title-font">硬軟感</h5>
+            <p>
+                色を見た時に見かけの硬さに及ぼす影響のことで、
+                明度が高いと軟らかく、明度が低いと硬く感じる（色相も少し影響し、暖色は軟らかく、寒色は硬い）。
+            </p>
+            <h5 class="japanese-title-font">軽重感</h5>
+            <p>
+                色を見た時に見かけの重さに及ぼす影響のことで、明度が高いと軽く、明度が低いと重く見える。<br>
+                →この先入観のせいで、実際に持ち上げるとこう明度の方が重く感じるかも。<br>
+                軽重感を利用して、低明度の上にこう明度を置くと安定（バランス）して見え、高明度の上に低明度を置くと不安定（アンバランス）に見える。
+            </p>
+
+            <h4 class="japanese-title-font"><a id="subsec1-3">彩度に関連する心理効果</a></h4>
+            <h5 class="japanese-title-font">興奮・沈静感</h5>
+            <p>
+                色を見た時に受ける興奮的あるいは沈静的な印象のことで、
+                鮮やかな暖色系が興奮感を与え、彩度の低い寒色系が沈静感を与える。
+            </p>
+            <h5 class="japanese-title-font">派手・地味感</h5>
+            <p>
+                色を見た時の派手さのことで、彩度が高いと派手な印象が強く、
+                彩度が低いと地味な印象が強い（明度も少なからず影響を及ぼし、明度が高いほど派手に見える）。
+            </p>
+
+            <h4 class="japanese-title-font"><a id="subsec1-4">連想と象徴</a></h4>
+            <p>
+                色から、それと関係した物やイメージを思い浮かべることを<em class="keyword">色の連想</em>と言い、
+                時代や人種を超えて共通してイメージされるものと、文化や社会によって違ったイメージをされるものがある。
+            </p>
+            <p>
+                色の連想において、特に抽象的な概念や感情の連想が広く一般化したものを<em class="keyword">色の象徴性</em>と呼ぶ。
+            </p>
+        </section>
+
+        <section>
+            <div class="subsec-intro">
+                <h3 class="subsec-num english-font"><a id="subsec2">Section 3-2</a></h3>
+                <h3 class="subsec-title japanese-title-font">色の視覚効果（配色が持つイメージ）</h3>
+                <p>
+                    空間的あるいは時間的に色が近接していると、互いに影響を及ぼし、見え方が変化する。
+                    重要なのは<em class="keyword">色の対比</em>（図の色が地の色から離れる）と
+                    <em class="keyword">色の同化</em>（図の色が地の色に近づく）の2つである。
+                </p>
+            </div>
+        </section>
+    </main>
+    <script src="scroll.js"></script>
+
+    <!-- next preview -->
+</body>
+</html>
