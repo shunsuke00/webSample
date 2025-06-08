@@ -1,0 +1,219 @@
+@charset "UTF-8";
+
+main {
+    margin: 0 1rem;
+}
+.item-color {
+    width: 100px;
+    height: 100px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* Japanese
+--------------------------------------------- */
+/* Red type */
+#sakura .item-color {
+    background-color: #FBDADE;
+}
+#sango .item-color {
+    background-color: #FF7F8F;
+}
+#koubai .item-color {
+    background-color: #DF828A;
+}
+#shu .item-color {
+    background-color: #EF454A;
+}
+#akane .item-color {
+    background-color: #9E2236;
+}
+/* Yellow type */
+#rennga .item-color {
+    background-color: #914C35;
+}
+#kuri .item-color {
+    background-color: #704B38;
+}
+#yamabuki .item-color {
+    background-color: #F8A900;
+}
+#oudo .item-color {
+    background-color: #B8883B;
+}
+#karasi .item-color {
+    background-color: #C8A65D;
+}
+/* Green type */
+#uguisu .item-color {
+    background-color: #706C3E;
+}
+#matuba .item-color {
+    background-color: #687E52;
+}
+#moegi .item-color {
+    background-color: #97A61E;
+}
+#wakatake .item-color {
+    background-color: #00A37E;
+}
+#seizi .item-color {
+    background-color: #6DA895;
+}
+/* Blue type */
+#asagi .item-color {
+    background-color: #00859B;
+}
+#sora .item-color {
+    background-color: #89BDDE;
+}
+#ai .item-color {
+    background-color: #2B4B65;
+}
+#ruri .item-color {
+    background-color: #00519A;
+}
+#kakitubata .item-color {
+    background-color: #435AA0;
+}
+#gunjou .item-color {
+    background-color: #384D98;
+}
+#kikyou .item-color {
+    background-color: #4347A2;
+}
+/* Purple type */
+#nasukon .item-color {
+    background-color: #473946;
+}
+#ayame .item-color {
+    background-color: #C573B2;
+}
+#botan .item-color {
+    background-color: #C94093;
+}
+
+/* English
+---------------------------------------------------- */
+/* Red type */
+#winered .item-color {
+    background-color: #80273F;
+}
+#babypink .item-color {
+    background-color: #FEC6C5;
+}
+#bordeaux .item-color {
+    background-color: #533638;
+}
+#carmine .item-color {
+    background-color: #BE0039;
+}
+#vermilion .item-color {
+    background-color: #EF454A;
+}
+#scarlet .item-color {
+    background-color: #DE3838;
+}
+#salmonpink .item-color {
+    background-color: #FF9E8C;
+}
+#chocolate .item-color {
+    background-color: #503830;
+}
+/* Yellow type */
+#peach .item-color {
+    background-color: #E8BDA5;
+}
+#marigold .item-color {
+    background-color: #FFA400;
+}
+#beige .item-color {
+    background-color: #BCA78D;
+}
+#khaki .item-color {
+    background-color: #A36851;
+}
+#sepia .item-color {
+    background-color: #483C2C;
+}
+#blond .item-color {
+    background-color: #F6A57D;
+}
+#creamyellow .item-color {
+    background-color: #E4D3A2;
+}
+#lemonyellow .item-color {
+    background-color: #D9CA00;
+}
+#canaryyellow .item-color {
+    background-color: #EDD634;
+}
+#olive .item-color {
+    background-color: #5C5424;
+}
+/* Green type */
+#olivegreen .item-color {
+    background-color: #575531;
+}
+#cobaltgreen .item-color {
+    background-color: #09C289;
+}
+#emeraldgreen .item-color {
+    background-color: #00A474;
+}
+#viridian .item-color {
+    background-color: #006D56;
+}
+/* Blue type */
+#turquoiseblue .item-color {
+    background-color: #009DBF;
+}
+#marineblue .item-color {
+    background-color: #00526B;
+}
+#cyan .item-color {
+    background-color: #009CD1;
+}
+#skyblue .item-color {
+    background-color: #89BDDE;
+}
+#babyblue .item-color {
+    background-color: #A3BACD;
+}
+#cobaltblue .item-color {
+    background-color: #0062A0;
+}
+#navyblue .item-color {
+    background-color: #343D55;
+}
+#ultramarineblue .item-color {
+    background-color: #384D98;
+}
+/* Purple type */
+#violet .item-color {
+    background-color: #714C99;
+}
+#mauve .item-color {
+    background-color: #855896;
+}
+#lavender .item-color {
+    background-color: #9A8A9F;
+}
+#purple .item-color {
+    background-color: #A757A8;
+}
+#magenta .item-color {
+    background-color: #D13A84;
+}
+/* Achromatic type */
+#ivory .item-color {
+    background-color: #DED2BF;
+}
+#silvergray .item-color {
+    background-color: #9C9C9C;
+}
+#charcoalgray .item-color {
+    background-color: #4B474D;
+}

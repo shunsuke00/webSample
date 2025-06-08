@@ -6,11 +6,11 @@ html {
 
 #home-button {
     position: fixed;
-    top: 1rem;
-    left: 1rem;
-    height: 50px;
-    width: 50px;
-    border-radius: 50px;
+    top: .5rem;
+    left: .5rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 2.5rem;
     padding: 5px;
 
     background-color: white;
@@ -18,24 +18,24 @@ html {
 
 #menu-button {
     position: fixed;
-    top: 1rem;
-    right: 1rem;
-    height: 50px;
-    width: 50px;
+    top: .5rem;
+    right: .5rem;
+    height: 2.5rem;
+    width: 2.5rem;
     background-color: aliceblue;
-    border: #444 2px solid;
-    border-radius: 50px;
+    border: #444 1px solid;
+    border-radius: 2.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     z-index: 100;
 }
 #menu-button div {
-    height: 4px;
-    width: 25px;
+    height: 2.5px;
+    width: 23px;
     background-color: black;
     margin: 3px auto;
-    border-radius: 5px;
+    border-radius: 3px;
 
     transition: all 500ms ease;
     transform-origin: center;
@@ -44,7 +44,7 @@ html {
     transform: rotate(45deg);
     position: absolute;
     margin: auto;
-    left: 25%;
+    left: 20%;
 }
 .middle-bar {
     opacity: 0;
@@ -53,7 +53,7 @@ html {
     transform: rotate(-45deg);
     position: absolute;
     margin: auto;
-    left: 25%;
+    left: 20%;
 }
 
 
