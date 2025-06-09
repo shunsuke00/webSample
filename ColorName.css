@@ -217,3 +217,30 @@ main {
 #charcoalgray .item-color {
     background-color: #4B474D;
 }
+
+
+
+
+/* 2級 */
+/* Japanese
+--------------------------------------------- */
+/* Red type */
+#toki .item-color {
+    background-color: #FA9CB8;
+}
+/*
+#toki {
+    display: none;
+} */
+#karakurenai .item-color {
+    background-color: #E64B6B;
+}
+#suou .item-color {
+    background-color: #94474B;
+}
+#tobi .item-color {
+    background-color: #7A453D;
+}
+#ebitya .item-color {
+    background-color: #693C34;
+}
