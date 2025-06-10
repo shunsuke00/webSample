@@ -330,8 +330,104 @@ main {
 /* English
 ---------------------------------------------------- */
 /* Red type */
+#rosepink .item-color {
+    background-color: #EE8EA0;
+}
+#burgundy .item-color {
+    background-color: #442E31;
+}
+#oldrose .item-color {
+    background-color: #C67A85;
+}
+#poppyred .item-color {
+    background-color: #DF334E;
+}
+#maroon .item-color {
+    background-color: #662B2C;
+}
+#terracotta .item-color {
+    background-color: #A95045;
+}
+#burntsienna .item-color {
+    background-color: #A2553C;
+}
+#rawsienna .item-color {
+    background-color: #B1632A;
+}
 /* Yellow type */
+#tan .item-color {
+    background-color: #9E6C3F;
+}
+#ecrubeige .item-color {
+    background-color: #F5CDA6;
+}
+#goldenyellow .item-color {
+    background-color: #E89A3C;
+}
+#amber .item-color {
+    background-color: #AA7A40;
+}
+#burntamber .item-color {
+    background-color: #57462D;
+}
+#rawamber .item-color {
+    background-color: #765B1B;
+}
+#naplesyellow .item-color {
+    background-color: #EEC063;
+}
+#jaunebrillant .item-color {
+    background-color: #F4D500;
+}
 /* Green type */
+#chartreusegreen .item-color {
+    background-color: #C0D136;
+}
+#leafgreen .item-color {
+    background-color: #89983B;
+}
+#grassgreen .item-color {
+    background-color: #737C3E;
+}
+#applegreen .item-color {
+    background-color: #A2D29E;
+}
+#mintgreen .item-color {
+    background-color: #58CE91;
+}
+#malachitegreen .item-color {
+    background-color: #007E4E;
+}
+#bottlegreen .item-color {
+    background-color: #204537;
+}
+#peacockgreen .item-color {
+    background-color: #007D7F;
+}
 /* Blue type */
+#nileblue .item-color {
+    background-color: #3D8E95;
+}
+#ceruleanblue .item-color {
+    background-color: #0073A2;
+}
+#saxeblue .item-color {
+    background-color: #5A7993;
+}
+#midnightblue .item-color {
+    background-color: #252A35;
+}
 /* Purple type */
+#wistaria .item-color {
+    background-color: #7967C3;
+}
+#lilac .item-color {
+    background-color: #C29DC8;
+}
 /* Achromatic type */
+#slategray .item-color {
+    background-color: #515356;
+}
+#lampblack .item-color {
+    background-color: #212121;
+}
