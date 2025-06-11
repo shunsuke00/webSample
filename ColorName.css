@@ -171,6 +171,10 @@ input[type="checkbox"]:checked + label:before {
 #botan .item-color {
     background-color: #C94093;
 }
+/* Achromatic */
+#kinari .item-color {
+    background-color: #EAE0D5;
+}
 
 /* Foreign
 ---------------------------------------------------- */
