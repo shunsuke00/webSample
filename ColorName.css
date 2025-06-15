@@ -7,6 +7,11 @@ h2 {
     text-align: center;
     margin-top: 2rem;
 }
+.subtitle {
+    text-align: left;
+    font-size: 1.5rem;
+    margin: 3rem 1rem 1rem;
+}
 .container {
     display: grid;
     gap: 2rem 1rem;
