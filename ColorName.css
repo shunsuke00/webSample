@@ -43,6 +43,13 @@ h2 {
 }
 
 
+/* フォント
+------------------------------------- */
+main {
+    font-family: sans-serif, serif;
+}
+
+
 /* checkbox
 ---------------------------------- */
 .checkboxes {
@@ -57,7 +64,7 @@ input[type="checkbox"] + label {
     display: block;
     position: relative;
     padding-left: 2rem;
-    font: 14px/20px 'Open Sans', Arial, sans-serif;
+    font: 14px/20px sans-serif, serif;
     cursor: pointer;
 }
   
