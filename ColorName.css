@@ -84,7 +84,11 @@ input[type="checkbox"]:checked + label:before {
     transform: rotate(45deg);
 }
 
-.invisible {
+.invisible_grade {
+    display: none;
+}
+
+.invisible_name {
     display: none;
 }
 
