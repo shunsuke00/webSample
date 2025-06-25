@@ -58,6 +58,27 @@ main {
     justify-content: space-around;
 }
 
+.checkboxes button {
+    width: 96px;
+    height: 40px;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 8px;
+    color: rgb(180, 180, 180);
+}
+.checkboxes button.checked {
+    background-color: rgb(83, 83, 83);
+    color: #FFFFFF;
+}
+
+.checkbox {
+    width: 96px;
+    height: 40px;
+    display: flex;
+  justify-content: center;  /* 横方向の中央 */
+  align-items: center; 
+  border: 1px solid black;
+}
+
 input[type="checkbox"] { display: none; }
   
 input[type="checkbox"] + label {

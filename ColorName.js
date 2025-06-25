@@ -1,4 +1,4 @@
-["first", "second", "third"].forEach(grade => {
+["second", "third"].forEach(grade => {
     let node_grade = document.querySelector(`#box-${grade}`);
     node_grade.addEventListener("click", () => {
         document.querySelectorAll(`.${grade}`).forEach(element_grade => {
@@ -15,3 +15,10 @@
         });
     });
 });
+
+const node_button = document.querySelector("#test");
+node_button.addEventListener("click", () => {
+    node_button.classList.toggle("checked");
+    node_span = document.querySelector("#test_hash");
+    console.log(node_button.classList);
+})
