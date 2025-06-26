@@ -4,6 +4,8 @@
         document.querySelectorAll(`.${grade}`).forEach(element_grade => {
             element_grade.classList.toggle("invisible_grade", !node_grade.checked);
         });
+        node_checkbox = document.querySelector(`#checkbox-${grade}`);
+        node_checkbox.classList.toggle("unchecked");
     });
 });
 
@@ -13,12 +15,7 @@
         document.querySelectorAll(`.${name}`).forEach(element_name => {
             element_name.classList.toggle("invisible_name", !node_name.checked);
         });
+        node_checkbox = document.querySelector(`#checkbox-${name}`);
+        node_checkbox.classList.toggle("unchecked");
     });
 });
-
-const node_button = document.querySelector("#test");
-node_button.addEventListener("click", () => {
-    node_button.classList.toggle("checked");
-    node_span = document.querySelector("#test_hash");
-    console.log(node_button.classList);
-})
