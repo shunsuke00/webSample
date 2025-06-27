@@ -54,13 +54,44 @@ main {
 
 /* checkbox
 ---------------------------------- */
-.checkboxes {
-    margin: 1rem auto;
+.CheckBoxes {
+    margin: 1rem auto -1rem;
+    width: 20rem;
     display: flex;
     justify-content: space-around;
 }
+.circle-checkboxes {
+    margin: 0 -2rem;
+    padding-left: .5rem;
+}
 
+div.circle {
+    width: 30px;
+    height: 30px;
+    font-size: 2rem;
+    font-weight: bold;
+    position: relative;
+    left: 1rem;
+    top: .75rem;
+  }
+  div svg {
+    overflow: visible;
+  }
+  div path {
+    fill: none;
+  }
+  div text {
+    fill: #000;
+  }
+
+.checkboxes {
+    margin: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
 .checkbox {
+    margin: 0.25rem auto;
     width: 96px;
     height: 40px;
     display: flex;
