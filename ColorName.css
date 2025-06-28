@@ -44,6 +44,30 @@ h2 {
     margin: .25rem 0 1rem;
 }
 
+.description {
+    margin: 0 1rem 2rem;
+}
+.description p {
+    margin: 1rem auto;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.backToTop-box {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 1rem 4rem 1rem;
+}
+#backToTop {
+    width: 105px;
+    padding: .5rem;
+    font-size: 12px;
+    color: #FFF;
+    background-color: #888;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
 /* フォント
 ------------------------------------- */

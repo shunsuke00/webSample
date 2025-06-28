@@ -11,3 +11,13 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         }
     });
 });
+
+
+// id="backToTop"をクリックするとページトップへスクロール
+const btn = document.getElementById('backToTop');
+btn.addEventListener('click', () => {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});
