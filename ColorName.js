@@ -1,21 +1,19 @@
 ["second", "third"].forEach(grade => {
-    let node_grade = document.querySelector(`#box-${grade}`);
-    node_grade.addEventListener("click", () => {
-        document.querySelectorAll(`.${grade}`).forEach(element_grade => {
-            element_grade.classList.toggle("invisible_grade", !node_grade.checked);
+    let checkboxNodeOfGrade = document.querySelector(`#box-${grade}`);
+    checkboxNodeOfGrade.addEventListener("click", () => {
+        document.querySelectorAll(`.${grade}`).forEach(colorItemNodeWithGrade => {
+            colorItemNodeWithGrade.classList.toggle("invisible_grade", !checkboxNodeOfGrade.checked);
         });
-        node_checkbox = document.querySelector(`#checkbox-${grade}`);
-        node_checkbox.classList.toggle("unchecked");
+        document.querySelector(`#checkbox-${grade}`).classList.toggle("unchecked");
     });
 });
 
 ["japanese-name", "english-name"].forEach(name => {
-    let node_name = document.querySelector(`#box-${name}`);
-    node_name.addEventListener("click", () => {
-        document.querySelectorAll(`.${name}`).forEach(element_name => {
-            element_name.classList.toggle("invisible_name", !node_name.checked);
+    let checkboxNodeOfNameType = document.querySelector(`#box-${name}`);
+    checkboxNodeOfNameType.addEventListener("click", () => {
+        document.querySelectorAll(`.${name}`).forEach(colorItemNodeWithName => {
+            colorItemNodeWithName.classList.toggle("invisible_name", !checkboxNodeOfNameType.checked);
         });
-        node_checkbox = document.querySelector(`#checkbox-${name}`);
-        node_checkbox.classList.toggle("unchecked");
+        document.querySelector(`#checkbox-${name}`).classList.toggle("unchecked");
     });
 });
