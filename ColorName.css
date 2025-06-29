@@ -23,6 +23,7 @@ h2 {
 .item {
     border-radius: .5rem;
     box-shadow: 0 0 7px rgb(196, 196, 196);
+    min-width: 170px;
 }
 .item-color {
     width: 130px;
@@ -67,6 +68,17 @@ h2 {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+@media (min-width: 800px) {
+    .container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }
 
 /* フォント
@@ -171,10 +183,17 @@ input[type="checkbox"]:checked + label:before {
     transform: rotate(45deg);
 }
 
+@media (min-width: 800px) {
+    .CheckBoxes {
+        margin-top: 2rem;
+        width: 30rem;
+    }
+}
+
+
 .invisible_grade {
     display: none;
 }
-
 .invisible_name {
     display: none;
 }
