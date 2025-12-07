@@ -84,6 +84,11 @@ tbody .inconsistent {
 tbody td:not(:first-child) {
     text-align: center;
 }
+@media (max-width: 800px) {
+    table {
+        width: 100%;
+    }
+}
 
 .description {
     margin: 0 1rem 2rem;
