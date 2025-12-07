@@ -52,8 +52,16 @@ h2 {
     border-top: 1px solid rgb(196, 196, 196);
 }
 .item-description {
-    font-size: .8rem;
+    font-size: .7rem;
     margin: .75rem 3rem 1rem
+}
+@media (max-width: 800px) {
+    .systematic {
+        margin-top: .5rem;
+    }
+    .item-description {
+        margin: .75rem .5rem 1rem;
+    }
 }
 
 table {
